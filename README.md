@@ -22,13 +22,37 @@ Built an **interactive Flask web app** where users can:
 - Get a **predicted disease class** using the trained EfficientNetB0 model.  
 
 ## ⚙️ Tech Stack
-- **Python** (Pandas, NumPy, Matplotlib, Seaborn)  
-- **Deep Learning:** TensorFlow / Keras (and/or PyTorch)  
-- **Model Deployment:** Flask  
-- **Dataset:** HAM10000 (Skin Cancer MNIST)  
+This project was implemented using the following libraries and frameworks:
+
+- [NumPy](https://numpy.org/) – numerical computing  
+- [Pandas](https://pandas.pydata.org/) – data manipulation & analysis  
+- [SciPy](https://scipy.org/) – scientific computing  
+- [Matplotlib](https://matplotlib.org/) – data visualization  
+- [Seaborn](https://seaborn.pydata.org/) – statistical data visualization  
+- [Pillow (PIL)](https://pillow.readthedocs.io/) – image processing  
+- [ImageHash](https://pypi.org/project/ImageHash/) – perceptual hashing for images  
+- [scikit-learn](https://scikit-learn.org/stable/) – ML utilities & metrics  
+- [tqdm](https://tqdm.github.io/) – progress bars  
+- [Keras](https://keras.io/) – high-level deep learning API  
+- [TensorFlow](https://www.tensorflow.org/) – deep learning framework  
+- [PyTorch](https://pytorch.org/) – deep learning framework  
+- [torchvision](https://pytorch.org/vision/stable/index.html) – computer vision datasets & models  
+- [efficientnet-pytorch](https://github.com/lukemelas/EfficientNet-PyTorch) – EfficientNet implementation  
 
 ## 🚀 How to Run
 1. Clone this repository  
    ```bash
-   git clone https://github.com/your-username/skin-cancer-classification.git
+   git clone https://github.com/ghstmd/skin-cancer-classification.git
    cd skin-cancer-classification
+2. Install dependencies
+
+  ```bash
+  pip install -r requirements.txt
+  ```
+3. Run the Flask app
+  ```bash
+  python app.py
+  ```
+## 📊 Results
+- Best Model: EfficientNetB0 (fine-tuned)
+- Training with image + metadata improved performance compared to using images alone.
