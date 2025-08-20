@@ -44,15 +44,15 @@ This project was implemented using the following libraries and frameworks:
    ```bash
    git clone https://github.com/ghstmd/skin-cancer-classification.git
    cd skin-cancer-classification
+   ```
 2. Install dependencies
-
-  ```bash
-  pip install -r requirements.txt
-  ```
+    ```bash
+    pip install -r requirements.txt
+    ```
 3. Run the Flask app
-  ```bash
-  python app.py
-  ```
+    ```bash
+    python app.py
+    ```
 ## 📊 Results
 - Best Model: EfficientNetB0 (fine-tuned)
 - Training with image + metadata improved performance compared to using images alone.
